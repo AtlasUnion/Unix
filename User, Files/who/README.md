@@ -20,9 +20,17 @@ The open() system call opens the file specified by pathname.  If the specified f
 | RETURNS 	| -1  on error    <br>      int on success                          	|
 
 ##### ssize_t read(int fd, void *buf, size_t count)
-read() attempts to read up to count bytes from file descriptor fd into the buffer starting at buf.
+[read()](http://man7.org/linux/man-pages/man2/read.2.html) attempts to read up to count bytes from file descriptor fd into the buffer starting at buf.
+
+
+|         	| read                                                                       	|
+|---------	|----------------------------------------------------------------------------	|
+| PURPOSE 	| Transfer up to qty bytes from fd to buf                                    	|
+| INCLUDE 	| #include <unistd.h>                                                        	|
+| USAGE   	| ssize_t numread = read (int fd, void *buf, size_t qty)                     	|
+| ARGS    	| fd source of data buf destination for data qty number of bytes to transfer 	|
+| RETURNS 	| -1  on error numread on success                                            	|
 ###### return value
-On success, the number of bytes read is returned(zero indicates end of file), and the file position is advanced by this number. [The returned bytes may be smaller than requested](http://man7.org/linux/man-pages/man2/read.2.html). Else, -1.
 #### System files
 ##### utmp
 [utmp](http://man7.org/linux/man-pages/man5/utmp.5.html) file stores login records
