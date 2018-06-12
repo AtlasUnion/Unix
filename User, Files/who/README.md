@@ -29,8 +29,8 @@ The open() &nbsp; &nbsp; system call opens the file specified by pathname.  If t
 | **INCLUDE** 	| `#include <unistd.h>`                                                        	|
 | **USAGE**   	| `ssize_t numread = read (int fd, void *buf, size_t qty)`                     	|
 | **ARGS**    	| `fd` &nbsp; &nbsp; source of data <br> `buf` &nbsp; &nbsp; destination for data <br> `qty` &nbsp;&nbsp; number of bytes to transfer 	|
-| RETURNS 	| `-1`  on error <br> `numread` on success                                            	|
-###### return value
+| **RETURNS** 	| `-1`  on error <br> `numread` on success                                            	|
+
 #### System files
 ##### utmp
 [utmp](http://man7.org/linux/man-pages/man5/utmp.5.html) file stores login records
