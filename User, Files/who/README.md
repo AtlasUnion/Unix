@@ -13,11 +13,11 @@ The open() &nbsp; &nbsp; system call opens the file specified by pathname.  If t
 
 |         	| open                                                                   	|
 |---------	|------------------------------------------------------------------------	|
-| PURPOSE 	| Create a connection to file                                            	|
-| INCLUDE 	| #include <fcntl.h>                                            	|
-| USAGE   	| int fd = open (char *name, int how)                           	|
-| ARGS    	| name &nbsp; &nbsp; name of file    <br>       how &nbsp; &nbsp;&nbsp;   O_RDONLY, O_WRONLY, O_RDWR 	|
-| RETURNS 	| -1 &nbsp; &nbsp; on error    <br>      int &nbsp; on success                          	|
+| **PURPOSE** 	| Create a connection to file                                            	|
+| **INCLUDE** 	| `#include <fcntl.h>`                                         	|
+| **USAGE**   	| `int fd = open (char *name, int how)`                           	|
+| **ARGS**  	| `name` &nbsp; &nbsp; name of file    <br>       `how` &nbsp; &nbsp;&nbsp;   O_RDONLY, O_WRONLY, O_RDWR 	|
+| **RETURNS** 	| `-1` &nbsp; &nbsp; on error    <br>      `int` &nbsp; on success                          	|
 
 ##### ssize_t read(int fd, void *buf, size_t count)
 [read()](http://man7.org/linux/man-pages/man2/read.2.html) attempts to read up to count bytes from file descriptor fd into the buffer starting at buf.
