@@ -12,7 +12,7 @@ ryan     :0           2018-06-11 11:46 (:0)
 | [who3.c](https://github.com/AtlasUnion/Unix/blob/master/User%2C%20Files/who/who3.c)  | add buffer |
 ## System calls
 ### int open(const char* pathname, int flags)
-The open() system call opens the file specified by pathname.  If the specified file does not exist, it may optionally (if O_CREAT isspecified in flags) be created by open(). [Open mode](http://man7.org/linux/man-pages/man2/open.2.html) is specified by the flags.
+The open() system call opens the file specified by pathname.  If the specified file does not exist, it may optionally (if O_CREAT is specified in flags) be created by open(). [Open mode](http://man7.org/linux/man-pages/man2/open.2.html) is specified by the flags.
 
 
 |         	| open                                                                   	|
