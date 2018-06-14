@@ -39,4 +39,4 @@ The open() system call opens the file specified by pathname.  If the specified f
 ### utmp
 [utmp](http://man7.org/linux/man-pages/man5/utmp.5.html) file stores login records
 ## Helpful Links
-[c printf formart](https://en.wikipedia.org/wiki/Printf_format_string#Format_placeholder_specification)
+* [c printf formart](https://en.wikipedia.org/wiki/Printf_format_string#Format_placeholder_specification)
