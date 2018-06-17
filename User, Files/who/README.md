@@ -1,5 +1,5 @@
 # who command
-## Sample Code
+## Sample Bash Code
 ```
 $ who 
 ryan     :0           2018-06-11 11:46 (:0)
@@ -10,7 +10,7 @@ ryan     :0           2018-06-11 11:46 (:0)
 | [who1.c](https://github.com/AtlasUnion/Unix/blob/master/User%2C%20Files/who/who1.c)  | a basic implementation of who command |
 | [who2.c](https://github.com/AtlasUnion/Unix/blob/master/User%2C%20Files/who/who2.c)  | add human-readable time display |
 | [who3.c](https://github.com/AtlasUnion/Unix/blob/master/User%2C%20Files/who/who3.c)  | add buffer |
-## System calls
+## System Calls
 ### int open(const char* pathname, int flags)
 The open() system call opens the file specified by pathname.  If the specified file does not exist, it may optionally (if O_CREAT is specified in flags) be created by open(). [Open mode](http://man7.org/linux/man-pages/man2/open.2.html) is specified by the flags.
 
