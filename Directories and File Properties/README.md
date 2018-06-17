@@ -1,2 +1,2 @@
-#Directories and File Properties
+# Directories and File Properties
 This is readme
