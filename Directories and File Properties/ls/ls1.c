@@ -12,8 +12,14 @@ main (int ac, char *av[]) {
         do_ls(".");
     else
         while (--ac) {
-        printf("%s:\n", *++av);
-        do_ls(*av);
+            /*
+             * Note: *++av
+             * ++av //increment the pointer
+             * *av // get the value at the pointer
+             * Side note: pre-incremented to skip av[0], which is the program name
+             */
+            printf("%s:\n", *++av);
+            do_ls(*av);
     }
 }
 
